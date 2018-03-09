@@ -1,0 +1,26 @@
+{
+  "name": "raze-cli",
+  "version": "1.0.0",
+  "description": "GKE deployment cli",
+  "main": "index.js",
+  "bin": {
+    "raze": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yansenarmandau/raze-cli"
+  },
+  "keywords": [
+    "gke",
+    "kubernetes",
+    "cli"
+  ],
+  "author": "Yansen <yansenarmandau.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
+}
